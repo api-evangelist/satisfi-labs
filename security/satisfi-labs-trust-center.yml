@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://satisfilabs.com/compliance
+url: https://satisfilabs.com/compliance
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://satisfilabs.com/compliance
+  keywords:
+  - soc 2
+  - gdpr

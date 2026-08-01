@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: probed /.well-known/ across satisfilabs.com, docs.satisfilabs.com, and the signin-authentication.satis.fi login tenant
+hosts:
+  - host: https://satisfilabs.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://docs.satisfilabs.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 307
+  - host: https://signin-authentication.satis.fi
+    note: Auth0-hosted login tenant for the Satisfi Labs customer application (not a documented public API)
+    documents:
+      - path: /.well-known/openid-configuration
+        status: 200
+        file: satisfi-labs-openid-configuration.json
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        file: satisfi-labs-oauth-authorization-server.json

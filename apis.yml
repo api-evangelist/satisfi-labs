@@ -1,7 +1,32 @@
 aid: satisfi-labs
 name: Satisfi Labs
-description: Satisfi Labs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Satisfi Labs is an agentic AI platform for the sports, entertainment, and
+  tourism industries, delivering specialized conversational AI agents that are
+  built and tuned by industry experts to sell more tickets, scale guest support,
+  improve the fan and visitor experience, and collect first-party customer data.
+  The platform centers on an AI Agent Engine (content management, response types,
+  enrichments, and generated responses trained on a customer's own website and
+  documents), a Live Agent Engine for human handoff, and a Marketing Engine, with
+  channel deployment across web, SMS, WhatsApp, Facebook Messenger, and email and
+  integrations into ticketing (Ticketmaster, SeatGeek, FEVO, Ventrata, ParkWhiz),
+  commerce (Shopify, WordPress), and automation (Zapier, Salesforce) systems.
+  Clients include MLB, the Tampa Bay Buccaneers, Houston Astros, Atlanta Braves,
+  Orlando Magic, and Georgia Tech Athletics. Satisfi Labs is a Techstars-backed
+  company. This profile is maintained by API Evangelist; the company exposes a
+  customer application and help center rather than a documented public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://satisfilabs.com/
 url: https://raw.githubusercontent.com/api-evangelist/satisfi-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +36,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Conversational AI
+- Agentic AI
+- Chatbots
+- Customer Experience
+- Sports
+- Entertainment
+- Tourism
+- Ticketing
+- Guest Support
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 common:
+- type: TrustCenter
+  url: security/satisfi-labs-trust-center.yml
+- type: Compliance
+  url: https://satisfilabs.com/compliance
+- type: DomainSecurity
+  url: security/satisfi-labs-domain-security.yml
 - type: Website
   url: https://satisfilabs.com/
+- type: Documentation
+  url: https://docs.satisfilabs.com/
+- type: Support
+  url: https://docs.satisfilabs.com/
+- type: Blog
+  url: https://satisfilabs.com/blog
+- type: SignUp
+  url: https://www.satisfilabs.com/demo
+- type: Login
+  url: https://signin-authentication.satis.fi/u/login
+- type: TermsOfService
+  url: https://www.satisfilabs.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.satisfilabs.com/privacy-policy
+- type: LLMsTxt
+  url: llms/satisfi-labs-llms.txt
+- type: WellKnown
+  url: well-known/satisfi-labs-well-known.yml
