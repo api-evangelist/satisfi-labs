@@ -15,6 +15,17 @@ description: >-
   Orlando Magic, and Georgia Tech Athletics. Satisfi Labs is a Techstars-backed
   company. This profile is maintained by API Evangelist; the company exposes a
   customer application and help center rather than a documented public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
