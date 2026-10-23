@@ -1,0 +1,79 @@
+edges:
+- partner_name: OCTO Known Implementations (docs.octo.travel)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://docs.octo.travel/additional-resources/known-implementations
+  category: OCTO API implementation (live, self-reported)
+  contract_reference:
+    register: OCTO Known Implementations (docs.octo.travel)
+    standard: OCTO (Open Connectivity for Tours, Activities & Attractions) API specification
+    spec_file: null
+    spec_url: https://app.swaggerhub.com/apis-docs/OCTO-API/OCTO-API/1.0
+    standard_repo: octo
+    role: octo-implementer-connected-system
+    registrations:
+    - registered_name: Satisfi Labs
+      register_status: live
+      register_id: connected-system:Satisfi Labs
+      matched_domain: satisfilabs.com
+      matched_by: domain
+      implementation_side: connected-system
+      capabilities:
+      - pricing
+    detected_by: sweep-octo-tours-activities.py
+    detected: '2026-10-23'
+    signal_note: 'participation only: a LIVE row on OCTO''s volunteer-maintained Known Implementations sheet (self-reported,
+      not certified)'
+  detected_by: sweep-octo-tours-activities.py
+  first_seen: '2026-10-23'
+- partner_name: OCTO member directory (octo.travel)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://octo.travel/members
+  category: OCTO standards body membership (tours, activities & attractions connectivity)
+  contract_reference:
+    register: OCTO member directory (octo.travel)
+    standard: OCTO (Open Connectivity for Tours, Activities & Attractions) API specification
+    spec_file: null
+    spec_url: https://app.swaggerhub.com/apis-docs/OCTO-API/OCTO-API/1.0
+    standard_repo: octo
+    role: technology-member
+    registrations:
+    - registered_name: Satisfi Labs
+      register_status: member
+      register_id: XQYaRdMQ
+      matched_domain: satisfilabs.com
+      matched_by: domain
+      member_type: technology-member
+    detected_by: sweep-octo-tours-activities.py
+    detected: '2026-10-23'
+    signal_note: 'participation only: OCTO standards-body membership; membership certifies nothing'
+  detected_by: sweep-octo-tours-activities.py
+  first_seen: '2026-10-23'
+  partner_tier: Technology Member - Over USD $5M
+generated: '2026-10-23'
+method: searched
+source:
+- https://docs.octo.travel/
+- https://octo.travel/members
+- https://octo.travel/api/members
+- https://docs.octo.travel/additional-resources/known-implementations
+- https://docs.google.com/spreadsheets/d/1UIgUYAPO3SUsdoGmg5xIGHIBHWHOx7XfQCOzOTML6ms
+- https://certify.octo.travel/verify
+- https://certify.octo.travel/api/certification/public
+checked:
+- https://certify.octo.travel/api/certification/public
+- https://certify.octo.travel/verify
+- https://docs.google.com/spreadsheets/d/1UIgUYAPO3SUsdoGmg5xIGHIBHWHOx7XfQCOzOTML6ms
+- https://docs.octo.travel/
+- https://docs.octo.travel/additional-resources/known-implementations
+- https://octo.travel/api/members
+- https://octo.travel/members
